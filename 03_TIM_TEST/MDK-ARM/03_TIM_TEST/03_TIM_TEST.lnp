@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+"03_tim_test\startup_stm32f103xe.o"
+"03_tim_test\main.o"
+"03_tim_test\gpio.o"
+"03_tim_test\tim.o"
+"03_tim_test\stm32f1xx_it.o"
+"03_tim_test\stm32f1xx_ll_gpio.o"
+"03_tim_test\stm32f1xx_ll_pwr.o"
+"03_tim_test\stm32f1xx_ll_exti.o"
+"03_tim_test\stm32f1xx_ll_tim.o"
+"03_tim_test\stm32f1xx_ll_dma.o"
+"03_tim_test\stm32f1xx_ll_rcc.o"
+"03_tim_test\stm32f1xx_ll_utils.o"
+"03_tim_test\system_stm32f1xx.o"
+--strict --scatter "03_TIM_TEST\03_TIM_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "03_TIM_TEST.map" -o 03_TIM_TEST\03_TIM_TEST.axf
