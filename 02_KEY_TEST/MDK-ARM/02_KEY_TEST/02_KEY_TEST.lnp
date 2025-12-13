@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+"02_key_test\startup_stm32f103xe.o"
+"02_key_test\main.o"
+"02_key_test\gpio.o"
+"02_key_test\stm32f1xx_it.o"
+"02_key_test\stm32f1xx_ll_gpio.o"
+"02_key_test\stm32f1xx_ll_pwr.o"
+"02_key_test\stm32f1xx_ll_exti.o"
+"02_key_test\stm32f1xx_ll_rcc.o"
+"02_key_test\stm32f1xx_ll_utils.o"
+"02_key_test\system_stm32f1xx.o"
+--strict --scatter "02_KEY_TEST\02_KEY_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "02_KEY_TEST.map" -o 02_KEY_TEST\02_KEY_TEST.axf

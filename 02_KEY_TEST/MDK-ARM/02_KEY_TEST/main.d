@@ -1,0 +1,20 @@
+02_key_test\main.o: ../Core/Src/main.c
+02_key_test\main.o: ../Core/Inc/main.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h
+02_key_test\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+02_key_test\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+02_key_test\main.o: ../Drivers/CMSIS/Include/core_cm3.h
+02_key_test\main.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+02_key_test\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
+02_key_test\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+02_key_test\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+02_key_test\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h
+02_key_test\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h
+02_key_test\main.o: ../Core/Inc/gpio.h
