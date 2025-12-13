@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+"01_led_test\startup_stm32f103xe.o"
+"01_led_test\main.o"
+"01_led_test\gpio.o"
+"01_led_test\stm32f1xx_it.o"
+"01_led_test\stm32f1xx_ll_gpio.o"
+"01_led_test\stm32f1xx_ll_pwr.o"
+"01_led_test\stm32f1xx_ll_exti.o"
+"01_led_test\stm32f1xx_ll_rcc.o"
+"01_led_test\stm32f1xx_ll_utils.o"
+"01_led_test\system_stm32f1xx.o"
+--strict --scatter "01_LED_TEST\01_LED_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "01_LED_TEST.map" -o 01_LED_TEST\01_LED_TEST.axf
