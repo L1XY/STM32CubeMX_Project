@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"05_pwm_test\startup_stm32f103xe.o"
+"05_pwm_test\main.o"
+"05_pwm_test\gpio.o"
+"05_pwm_test\dma.o"
+"05_pwm_test\tim.o"
+"05_pwm_test\usart.o"
+"05_pwm_test\stm32f1xx_it.o"
+"05_pwm_test\stm32f1xx_hal_msp.o"
+"05_pwm_test\system_stm32f1xx.o"
+"05_pwm_test\stm32f1xx_hal_gpio_ex.o"
+"05_pwm_test\stm32f1xx_hal_tim.o"
+"05_pwm_test\stm32f1xx_hal_tim_ex.o"
+"05_pwm_test\stm32f1xx_hal.o"
+"05_pwm_test\stm32f1xx_hal_rcc.o"
+"05_pwm_test\stm32f1xx_hal_rcc_ex.o"
+"05_pwm_test\stm32f1xx_hal_gpio.o"
+"05_pwm_test\stm32f1xx_hal_dma.o"
+"05_pwm_test\stm32f1xx_hal_cortex.o"
+"05_pwm_test\stm32f1xx_hal_pwr.o"
+"05_pwm_test\stm32f1xx_hal_flash.o"
+"05_pwm_test\stm32f1xx_hal_flash_ex.o"
+"05_pwm_test\stm32f1xx_hal_exti.o"
+"05_pwm_test\stm32f1xx_hal_uart.o"
+--strict --scatter "05_PWM_TEST\05_PWM_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "05_PWM_TEST.map" -o 05_PWM_TEST\05_PWM_TEST.axf
