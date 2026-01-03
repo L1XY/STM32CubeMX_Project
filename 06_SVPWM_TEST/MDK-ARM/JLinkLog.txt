@@ -1,0 +1,673 @@
+
+T5AEC 000:284 SEGGER J-Link V5.12e Log File (0001ms, 0268ms total)
+T5AEC 000:284 DLL Compiled: Apr 29 2016 15:03:58 (0001ms, 0268ms total)
+T5AEC 000:284 Logging started @ 2026-01-03 14:04 (0001ms, 0268ms total)
+T5AEC 000:285 JLINK_SetWarnOutHandler(...) (0000ms, 0268ms total)
+T5AEC 000:285 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+Hardware: V9.70
+S/N: 69730342
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0269ms, 0537ms total)
+T5AEC 000:554 JLINK_SetErrorOutHandler(...) (0000ms, 0537ms total)
+T5AEC 000:554 JLINK_ExecCommand("ProjectFile = "D:\GitHub_Repo\STM32CubeMX_Project\06_SVPWM_TEST\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0537ms total)
+T5AEC 000:554 JLINK_ExecCommand("Device = STM32F103ZE", ...)Device "STM32F103ZE" selected.  returns 0x00 (0000ms, 0537ms total)
+T5AEC 000:554 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0537ms total)
+T5AEC 000:554 JLINK_GetHardwareVersion()  returns 0x17AE8 (0000ms, 0537ms total)
+T5AEC 000:554 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0537ms total)
+T5AEC 000:555 JLINK_GetFirmwareString(...) (0000ms, 0538ms total)
+T5AEC 000:555 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0538ms total)
+T5AEC 000:555 JLINK_GetCompileDateTime() (0000ms, 0538ms total)
+T5AEC 000:555 JLINK_GetFirmwareString(...) (0000ms, 0538ms total)
+T5AEC 000:555 JLINK_GetHardwareVersion()  returns 0x17AE8 (0000ms, 0538ms total)
+T5AEC 000:555 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0002ms, 0540ms total)
+T5AEC 000:557 JLINK_SetSpeed(5000) (0000ms, 0540ms total)
+T5AEC 000:557 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = 9, IRPrint = 0x0011 >0x30 JTAG> >0x210 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG>
+ >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x2F8 JTAG>TotalIRLen = 9, IRPrint = 0x0011 >0x30 JTAG> >0x210 JTAG> >0x70 JTAG> >0x50 JTAG> >0x40 JTAG> >0x50 JTAG> >0x80 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG>Found Cortex-M3 r1p1, Little endian. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)
+FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl 0 @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)
+ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB -- CPU_ReadMem(16 bytes @ 0xE0000FF0) -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010)
+ -- CPU_ReadMem(16 bytes @ 0xE0040FF0) -- CPU_ReadMem(16 bytes @ 0xE0040FE0)ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite -- CPU_ReadMem(16 bytes @ 0xE0041FF0) -- CPU_ReadMem(16 bytes @ 0xE0041FE0)ROMTbl 0 [5]: FFF42000, CID: B105900D, PID: 101BB924 ETM-M3 ScanLen=9 NumDevices=2 aId[0]=0x3BA00477 aIrRead[0]=0 aScanLen[0]=0 aScanRead[0]=0 (0196ms, 0736ms total)
+T5AEC 000:753 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)  returns 0x3BA00477 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 0)  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_JTAG_GetDeviceID(DeviceIndex = 1)  returns 0x6414041 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 1)  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_CORE_GetFound()  returns 0x30000FF (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x100) -- Value=0xE00FF003  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x100) -- Value=0xE00FF003  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x101) -- Value=0xE0041000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x102) -- Value=0x00000000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x103) -- Value=0xE0040000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x104) -- Value=0xE0000000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x105) -- Value=0xE0001000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x106) -- Value=0xE0002000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x107) -- Value=0xE000E000  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_GetDebugInfo(0x10C) -- Value=0xE000EDF0  returns 0x00 (0000ms, 0736ms total)
+T5AEC 000:753 JLINK_ReadMemU32(0xE000ED00, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000ED00) - Data: 31 C2 1F 41  returns 0x01 (0001ms, 0737ms total)
+T5AEC 000:754 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0737ms total)
+T5AEC 000:754 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) >0x80 JTAG> >0x40 JTAG> >0x30 JTAG>
+ >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0028ms, 0765ms total)
+T5AEC 000:782 JLINK_ReadReg(R15 (PC))  returns 0x080001E4 (0000ms, 0765ms total)
+T5AEC 000:783 JLINK_ReadReg(XPSR)  returns 0x01000000 (0000ms, 0765ms total)
+T5AEC 000:783 JLINK_Halt()  returns 0x00 (0000ms, 0765ms total)
+T5AEC 000:783 JLINK_IsHalted()  returns TRUE (0000ms, 0765ms total)
+T5AEC 000:783 JLINK_ReadMemU32(0xE000EDF0, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) - Data: 03 00 03 00  returns 0x01 (0000ms, 0765ms total)
+T5AEC 000:783 JLINK_WriteU32(0xE000EDF0, 0xA05F0003) -- CPU_WriteMem(4 bytes @ 0xE000EDF0)  returns 0x00 (0001ms, 0766ms total)
+T5AEC 000:784 JLINK_WriteU32(0xE000EDFC, 0x01000000) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)  returns 0x00 (0001ms, 0767ms total)
+T5AEC 000:785 JLINK_GetHWStatus(...)  returns 0x00 (0000ms, 0767ms total)
+T5AEC 000:785 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)  returns 0x06 (0000ms, 0767ms total)
+T5AEC 000:785 JLINK_GetNumBPUnits(Type = 0xF0)  returns 0x2000 (0000ms, 0767ms total)
+T5AEC 000:785 JLINK_GetNumWPUnits()  returns 0x04 (0000ms, 0767ms total)
+T5AEC 000:785 JLINK_GetSpeed()  returns 0x1388 (0000ms, 0767ms total)
+T5AEC 000:785 JLINK_ReadMemU32(0xE000E004, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE000E004) - Data: 01 00 00 00  returns 0x01 (0001ms, 0768ms total)
+T5AEC 000:786 JLINK_ReadMemU32(0xE000E004, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE000E004) - Data: 01 00 00 00  returns 0x01 (0000ms, 0768ms total)
+T5AEC 000:786 JLINK_WriteMem(0xE0001000, 0x001C Bytes, ...) - Data: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... -- CPU_WriteMem(28 bytes @ 0xE0001000)  returns 0x1C (0001ms, 0769ms total)
+T5AEC 000:787 JLINK_ReadMem (0xE0001000, 0x001C Bytes, ...) -- CPU_ReadMem(28 bytes @ 0xE0001000) - Data: 01 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 ...  returns 0x00 (0001ms, 0770ms total)
+T5AEC 000:788 JLINK_ReadReg(R15 (PC))  returns 0x080001E4 (0000ms, 0770ms total)
+T5AEC 000:788 JLINK_ReadReg(XPSR)  returns 0x01000000 (0000ms, 0770ms total)
+T5AEC 000:878 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0770ms total)
+T5AEC 000:878 JLINK_Reset() -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) >0x80 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE0001028)
+ -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0028ms, 0798ms total)
+T5AEC 000:906 JLINK_ReadReg(R15 (PC))  returns 0x080001E4 (0000ms, 0798ms total)
+T5AEC 000:906 JLINK_ReadReg(XPSR)  returns 0x01000000 (0000ms, 0798ms total)
+T5AEC 000:992 JLINK_ReadMem (0x08000130, 0x003C Bytes, ...) -- CPU_ReadMem(128 bytes @ 0x08000100) -- Updating C cache (128 bytes @ 0x08000100) -- Read from C cache (60 bytes @ 0x08000130) - Data: 00 F0 02 F8 00 F0 47 F8 0A A0 90 E8 00 0C 82 44 ...  returns 0x00 (0002ms, 0800ms total)
+T5AEC 000:994 JLINK_ReadMem (0x0800016C, 0x003C Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x08000180) -- Updating C cache (64 bytes @ 0x08000180) -- Read from C cache (60 bytes @ 0x0800016C) - Data: 10 3A 24 BF 78 C8 78 C1 FA D8 52 07 24 BF 30 C8 ...  returns 0x00 (0001ms, 0801ms total)
+T5AEC 000:995 JLINK_ReadMem (0x080001A8, 0x003C Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x080001C0) -- Updating C cache (64 bytes @ 0x080001C0) -- Read from C cache (60 bytes @ 0x080001A8) - Data: F2 86 00 20 70 47 1F B5 00 F0 E6 FA 04 00 00 20 ...  returns 0x00 (0001ms, 0802ms total)
+T5AEC 000:996 JLINK_ReadMem (0x080001E4, 0x003C Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x08000200) -- Updating C cache (64 bytes @ 0x08000200) -- Read from C cache (60 bytes @ 0x080001E4) - Data: 09 48 80 47 09 48 00 47 FE E7 FE E7 FE E7 FE E7 ...  returns 0x00 (0001ms, 0803ms total)
+T278C 013:332 JLINK_SetBPEx(Addr = 0x08003890, Type = 0xFFFFFFF2)  returns 0x00000001 (0000ms, 0803ms total)
+T278C 013:332 JLINK_Go() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU_WriteMem(4 bytes @ 0xE0002018) -- CPU_WriteMem(4 bytes @ 0xE000201C) -- CPU_WriteMem(4 bytes @ 0xE0001004) (0004ms, 0807ms total)
+T278C 013:437 JLINK_IsHalted()  returns TRUE (0003ms, 0810ms total)
+T278C 013:440 JLINK_Halt()  returns 0x00 (0000ms, 0807ms total)
+T278C 013:440 JLINK_IsHalted()  returns TRUE (0000ms, 0807ms total)
+T278C 013:440 JLINK_IsHalted()  returns TRUE (0000ms, 0807ms total)
+T278C 013:440 JLINK_IsHalted()  returns TRUE (0000ms, 0807ms total)
+T278C 013:440 JLINK_ReadReg(R15 (PC))  returns 0x08003890 (0000ms, 0807ms total)
+T278C 013:440 JLINK_ReadReg(XPSR)  returns 0x61000000 (0000ms, 0807ms total)
+T278C 013:440 JLINK_ClrBPEx(BPHandle = 0x00000001)  returns 0x00 (0000ms, 0807ms total)
+T278C 013:440 JLINK_ReadMemU32(0xE000ED30, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE000ED30) - Data: 02 00 00 00  returns 0x01 (0000ms, 0807ms total)
+T278C 013:440 JLINK_ReadMemU32(0xE0001028, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE0001028) - Data: 00 00 00 00  returns 0x01 (0001ms, 0808ms total)
+T278C 013:441 JLINK_ReadMemU32(0xE0001038, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE0001038) - Data: 00 02 00 00  returns 0x01 (0001ms, 0809ms total)
+T278C 013:442 JLINK_ReadMemU32(0xE0001048, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE0001048) - Data: 00 00 00 00  returns 0x01 (0000ms, 0809ms total)
+T278C 013:442 JLINK_ReadMemU32(0xE0001058, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE0001058) - Data: 00 00 00 00  returns 0x01 (0001ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R0)  returns 0x20000268 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R1)  returns 0x20000468 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R2)  returns 0x20000468 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R3)  returns 0x20000468 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R4)  returns 0x00000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R5)  returns 0x20000208 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R6)  returns 0x00000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R7)  returns 0x00000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R8)  returns 0x00000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R9)  returns 0x20000160 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R10)  returns 0x08004958 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R11)  returns 0x00000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R12)  returns 0x20000248 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R13 (SP))  returns 0x20000868 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R14)  returns 0x080001D5 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(R15 (PC))  returns 0x08003890 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(XPSR)  returns 0x61000000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(MSP)  returns 0x20000868 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(PSP)  returns 0x20001000 (0000ms, 0810ms total)
+T278C 013:443 JLINK_ReadReg(CFBP)  returns 0x00000000 (0000ms, 0810ms total)
+T5AEC 013:444 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU_ReadMem(4 bytes @ 0xE0001004) - Data: 03 05 00 00  returns 0x01 (0001ms, 0811ms total)
+T5AEC 013:450 JLINK_ReadMem (0x08003790, 0x003C Bytes, ...) -- CPU_ReadMem(128 bytes @ 0x08003780) -- Updating C cache (128 bytes @ 0x08003780) -- Read from C cache (60 bytes @ 0x08003790) - Data: FF 4F 00 D3 40 1E 00 F0 83 FA 21 46 00 F0 78 FB ...  returns 0x00 (0002ms, 0813ms total)
+T5AEC 013:452 JLINK_ReadMem (0x080037CC, 0x0034 Bytes, ...) -- Read from C cache (52 bytes @ 0x080037CC) - Data: 61 FB 05 46 0C 48 50 F8 24 60 00 EB 84 00 41 68 ...  returns 0x00 (0000ms, 0813ms total)
+T5AEC 013:452 JLINK_ReadMem (0x08003800, 0x0008 Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x08003800) -- Updating C cache (64 bytes @ 0x08003800) -- Read from C cache (8 bytes @ 0x08003800) - Data: 83 F9 22 3E 74 40 00 08  returns 0x00 (0001ms, 0814ms total)
+T5AEC 013:453 JLINK_ReadMem (0x08003808, 0x003C Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x08003840) -- Updating C cache (64 bytes @ 0x08003840) -- Read from C cache (60 bytes @ 0x08003808) - Data: 70 B5 1F 49 00 F0 74 FA 04 46 00 F0 09 FA 14 F1 ...  returns 0x00 (0001ms, 0815ms total)
+T5AEC 013:454 JLINK_ReadMem (0x08003844, 0x003C Bytes, ...) -- Read from C cache (60 bytes @ 0x08003844) - Data: 00 F0 2E FB 05 46 20 46 00 F0 40 FA 29 46 00 F0 ...  returns 0x00 (0000ms, 0815ms total)
+T5AEC 013:454 JLINK_ReadMem (0x08003880, 0x003C Bytes, ...) -- CPU_ReadMem(64 bytes @ 0x08003880) -- Updating C cache (64 bytes @ 0x08003880) -- Read from C cache (60 bytes @ 0x08003880) - Data: 70 40 00 F0 A7 B8 00 00 83 F9 22 3E 74 40 00 08 ...  returns 0x00 (0001ms, 0816ms total)
+T278C 021:873 JLINK_SetBPEx(Addr = 0x08003894, Type = 0xFFFFFFF2)  returns 0x00000002 (0000ms, 0816ms total)
+T278C 021:873 JLINK_Go() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0002008) (0003ms, 0819ms total)
+T278C 021:977 JLINK_IsHalted()  returns ERROR (0016ms, 0835ms total)
+T278C 021:993 JLINK_Halt()CPU could not be halted  returns 0x01 (0009ms, 0828ms total)
+T278C 022:002 JLINK_IsHalted()  returns ERROR (0017ms, 0845ms total)
+T278C 022:019 JLINK_IsHalted()  returns ERROR (0017ms, 0845ms total)
+T278C 022:036 JLINK_IsHalted()  returns ERROR (0016ms, 0844ms total)
+T278C 022:052 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 0844ms total)
+T278C 022:068 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 0860ms total)
+T278C 022:084 JLINK_ClrBPEx(BPHandle = 0x00000002) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000201C)  returns 0x00 (0054ms, 0914ms total)
+T278C 022:138 JLINK_ReadMemU32(0xE000ED30, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000ED30)  returns 0xFFFFFFFF (0006ms, 0920ms total)
+T278C 022:144 JLINK_ReadMemU32(0xE0001028, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001028)  returns 0xFFFFFFFF (0007ms, 0927ms total)
+T278C 022:151 JLINK_ReadMemU32(0xE0001038, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001038)  returns 0xFFFFFFFF (0006ms, 0933ms total)
+T278C 022:157 JLINK_ReadMemU32(0xE0001048, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001048)  returns 0xFFFFFFFF (0006ms, 0939ms total)
+T278C 022:163 JLINK_ReadMemU32(0xE0001058, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001058)  returns 0xFFFFFFFF (0006ms, 0945ms total)
+T278C 022:169 JLINK_ReadReg(R0) -- CPU is running
+  ***** Error: Can not read register 0 (R0) while CPU is running  returns 0x00000000 (0016ms, 0961ms total)
+T278C 022:185 JLINK_ReadReg(R1) -- CPU is running
+  ***** Error: Can not read register 1 (R1) while CPU is running  returns 0x00000000 (0017ms, 0978ms total)
+T278C 022:202 JLINK_ReadReg(R2) -- CPU is running
+  ***** Error: Can not read register 2 (R2) while CPU is running  returns 0x00000000 (0016ms, 0994ms total)
+T278C 022:218 JLINK_ReadReg(R3) -- CPU is running
+  ***** Error: Can not read register 3 (R3) while CPU is running  returns 0x00000000 (0017ms, 1011ms total)
+T278C 022:235 JLINK_ReadReg(R4) -- CPU is running
+  ***** Error: Can not read register 4 (R4) while CPU is running  returns 0x00000000 (0016ms, 1027ms total)
+T278C 022:252 JLINK_ReadReg(R5) -- CPU is running
+  ***** Error: Can not read register 5 (R5) while CPU is running  returns 0x00000000 (0016ms, 1043ms total)
+T278C 022:268 JLINK_ReadReg(R6) -- CPU is running
+  ***** Error: Can not read register 6 (R6) while CPU is running  returns 0x00000000 (0016ms, 1059ms total)
+T278C 022:284 JLINK_ReadReg(R7) -- CPU is running
+  ***** Error: Can not read register 7 (R7) while CPU is running  returns 0x00000000 (0016ms, 1075ms total)
+T278C 022:300 JLINK_ReadReg(R8) -- CPU is running
+  ***** Error: Can not read register 8 (R8) while CPU is running  returns 0x00000000 (0018ms, 1093ms total)
+T278C 022:318 JLINK_ReadReg(R9) -- CPU is running
+  ***** Error: Can not read register 9 (R9) while CPU is running  returns 0x00000000 (0016ms, 1109ms total)
+T278C 022:334 JLINK_ReadReg(R10) -- CPU is running
+  ***** Error: Can not read register 10 (R10) while CPU is running  returns 0x00000000 (0016ms, 1125ms total)
+T278C 022:350 JLINK_ReadReg(R11) -- CPU is running
+  ***** Error: Can not read register 11 (R11) while CPU is running  returns 0x00000000 (0016ms, 1141ms total)
+T278C 022:366 JLINK_ReadReg(R12) -- CPU is running
+  ***** Error: Can not read register 12 (R12) while CPU is running  returns 0x00000000 (0017ms, 1158ms total)
+T278C 022:383 JLINK_ReadReg(R13 (SP)) -- CPU is running
+  ***** Error: Can not read register 13 (R13) while CPU is running  returns 0x00000000 (0016ms, 1174ms total)
+T278C 022:400 JLINK_ReadReg(R14) -- CPU is running
+  ***** Error: Can not read register 14 (R14) while CPU is running  returns 0x00000000 (0016ms, 1190ms total)
+T278C 022:416 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 1207ms total)
+T278C 022:433 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 1223ms total)
+T278C 022:449 JLINK_ReadReg(MSP) -- CPU is running
+  ***** Error: Can not read register 17 (MSP) while CPU is running  returns 0x00000000 (0016ms, 1239ms total)
+T278C 022:465 JLINK_ReadReg(PSP) -- CPU is running
+  ***** Error: Can not read register 18 (PSP) while CPU is running  returns 0x00000000 (0018ms, 1257ms total)
+T278C 022:483 JLINK_ReadReg(CFBP) -- CPU is running
+  ***** Error: Can not read register 20 (CFBP) while CPU is running  returns 0x00000000 (0016ms, 1273ms total)
+T5AEC 022:499 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 1279ms total)
+T5AEC 022:510 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x00000004) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0022ms, 1301ms total)
+T5AEC 022:532 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1307ms total)
+T5AEC 022:538 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1313ms total)
+T5AEC 022:544 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0006ms, 1319ms total)
+T5AEC 022:550 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0006ms, 1325ms total)
+T5AEC 022:556 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0006ms, 1331ms total)
+T5AEC 022:562 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1338ms total)
+T5AEC 022:569 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1345ms total)
+T5AEC 022:576 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0005ms, 1350ms total)
+T5AEC 022:581 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0007ms, 1357ms total)
+T5AEC 022:588 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0006ms, 1363ms total)
+T5AEC 022:594 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0006ms, 1369ms total)
+T5AEC 022:600 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1376ms total)
+T5AEC 022:607 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1382ms total)
+T5AEC 022:613 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1389ms total)
+T5AEC 022:620 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0006ms, 1395ms total)
+T5AEC 022:626 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0006ms, 1401ms total)
+T5AEC 022:632 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0006ms, 1407ms total)
+T5AEC 022:638 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1414ms total)
+T5AEC 022:645 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1420ms total)
+T5AEC 022:651 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1426ms total)
+T5AEC 022:657 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0007ms, 1433ms total)
+T5AEC 022:664 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0006ms, 1439ms total)
+T5AEC 022:670 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0006ms, 1445ms total)
+T5AEC 022:676 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 1451ms total)
+T5AEC 022:682 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1458ms total)
+T5AEC 022:689 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 1465ms total)
+T5AEC 022:696 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0005ms, 1470ms total)
+T5AEC 022:702 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0006ms, 1476ms total)
+T5AEC 022:708 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0006ms, 1482ms total)
+T278C 023:714 JLINK_SetBPEx(Addr = 0x08003894, Type = 0xFFFFFFF2) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008)  returns 0x00000003 (0006ms, 1488ms total)
+T278C 023:720 JLINK_Go()
+  ***** Error: CPU is not halted (0016ms, 1504ms total)
+T278C 023:838 JLINK_IsHalted()  returns ERROR (0015ms, 1519ms total)
+T278C 023:854 JLINK_Halt()CPU could not be halted  returns 0x01 (0010ms, 1514ms total)
+T278C 023:864 JLINK_IsHalted()  returns ERROR (0016ms, 1530ms total)
+T278C 023:880 JLINK_IsHalted()  returns ERROR (0016ms, 1530ms total)
+T278C 023:896 JLINK_IsHalted()  returns ERROR (0017ms, 1531ms total)
+T278C 023:913 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 1530ms total)
+T278C 023:929 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 1546ms total)
+T278C 023:945 JLINK_ClrBPEx(BPHandle = 0x00000003) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000201C)  returns 0x00 (0054ms, 1600ms total)
+T278C 023:999 JLINK_ReadMemU32(0xE000ED30, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000ED30)  returns 0xFFFFFFFF (0006ms, 1606ms total)
+T278C 024:005 JLINK_ReadMemU32(0xE0001028, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001028)  returns 0xFFFFFFFF (0006ms, 1612ms total)
+T278C 024:011 JLINK_ReadMemU32(0xE0001038, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001038)  returns 0xFFFFFFFF (0006ms, 1618ms total)
+T278C 024:017 JLINK_ReadMemU32(0xE0001048, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001048)  returns 0xFFFFFFFF (0006ms, 1624ms total)
+T278C 024:023 JLINK_ReadMemU32(0xE0001058, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001058)  returns 0xFFFFFFFF (0007ms, 1631ms total)
+T278C 024:030 JLINK_ReadReg(R0) -- CPU is running
+  ***** Error: Can not read register 0 (R0) while CPU is running  returns 0x00000000 (0016ms, 1647ms total)
+T278C 024:046 JLINK_ReadReg(R1) -- CPU is running
+  ***** Error: Can not read register 1 (R1) while CPU is running  returns 0x00000000 (0017ms, 1664ms total)
+T278C 024:063 JLINK_ReadReg(R2) -- CPU is running
+  ***** Error: Can not read register 2 (R2) while CPU is running  returns 0x00000000 (0016ms, 1680ms total)
+T278C 024:079 JLINK_ReadReg(R3) -- CPU is running
+  ***** Error: Can not read register 3 (R3) while CPU is running  returns 0x00000000 (0016ms, 1696ms total)
+T278C 024:096 JLINK_ReadReg(R4) -- CPU is running
+  ***** Error: Can not read register 4 (R4) while CPU is running  returns 0x00000000 (0016ms, 1712ms total)
+T278C 024:112 JLINK_ReadReg(R5) -- CPU is running
+  ***** Error: Can not read register 5 (R5) while CPU is running  returns 0x00000000 (0016ms, 1728ms total)
+T278C 024:129 JLINK_ReadReg(R6) -- CPU is running
+  ***** Error: Can not read register 6 (R6) while CPU is running  returns 0x00000000 (0016ms, 1744ms total)
+T278C 024:145 JLINK_ReadReg(R7) -- CPU is running
+  ***** Error: Can not read register 7 (R7) while CPU is running  returns 0x00000000 (0017ms, 1761ms total)
+T278C 024:162 JLINK_ReadReg(R8) -- CPU is running
+  ***** Error: Can not read register 8 (R8) while CPU is running  returns 0x00000000 (0016ms, 1777ms total)
+T278C 024:178 JLINK_ReadReg(R9) -- CPU is running
+  ***** Error: Can not read register 9 (R9) while CPU is running  returns 0x00000000 (0016ms, 1793ms total)
+T278C 024:194 JLINK_ReadReg(R10) -- CPU is running
+  ***** Error: Can not read register 10 (R10) while CPU is running  returns 0x00000000 (0016ms, 1809ms total)
+T278C 024:210 JLINK_ReadReg(R11) -- CPU is running
+  ***** Error: Can not read register 11 (R11) while CPU is running  returns 0x00000000 (0017ms, 1826ms total)
+T278C 024:227 JLINK_ReadReg(R12) -- CPU is running
+  ***** Error: Can not read register 12 (R12) while CPU is running  returns 0x00000000 (0017ms, 1843ms total)
+T278C 024:244 JLINK_ReadReg(R13 (SP)) -- CPU is running
+  ***** Error: Can not read register 13 (R13) while CPU is running  returns 0x00000000 (0016ms, 1859ms total)
+T278C 024:260 JLINK_ReadReg(R14) -- CPU is running
+  ***** Error: Can not read register 14 (R14) while CPU is running  returns 0x00000000 (0016ms, 1875ms total)
+T278C 024:276 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 1892ms total)
+T278C 024:293 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 1908ms total)
+T278C 024:309 JLINK_ReadReg(MSP) -- CPU is running
+  ***** Error: Can not read register 17 (MSP) while CPU is running  returns 0x00000000 (0017ms, 1925ms total)
+T278C 024:326 JLINK_ReadReg(PSP) -- CPU is running
+  ***** Error: Can not read register 18 (PSP) while CPU is running  returns 0x00000000 (0016ms, 1941ms total)
+T278C 024:342 JLINK_ReadReg(CFBP) -- CPU is running
+  ***** Error: Can not read register 20 (CFBP) while CPU is running  returns 0x00000000 (0016ms, 1957ms total)
+T5AEC 024:359 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 1963ms total)
+T278C 024:905 JLINK_SetBPEx(Addr = 0x08003894, Type = 0xFFFFFFF2) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008)  returns 0x00000004 (0007ms, 1970ms total)
+T278C 024:912 JLINK_Go()
+  ***** Error: CPU is not halted (0016ms, 1986ms total)
+T278C 025:028 JLINK_IsHalted()  returns ERROR (0016ms, 2002ms total)
+T278C 025:044 JLINK_Halt()CPU could not be halted  returns 0x01 (0009ms, 1995ms total)
+T278C 025:053 JLINK_IsHalted()  returns ERROR (0016ms, 2011ms total)
+T278C 025:069 JLINK_IsHalted()  returns ERROR (0017ms, 2012ms total)
+T278C 025:086 JLINK_IsHalted()  returns ERROR (0017ms, 2012ms total)
+T278C 025:103 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 2011ms total)
+T278C 025:119 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 2027ms total)
+T278C 025:135 JLINK_ClrBPEx(BPHandle = 0x00000004) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000201C)  returns 0x00 (0053ms, 2080ms total)
+T278C 025:188 JLINK_ReadMemU32(0xE000ED30, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000ED30)  returns 0xFFFFFFFF (0006ms, 2086ms total)
+T278C 025:194 JLINK_ReadMemU32(0xE0001028, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001028)  returns 0xFFFFFFFF (0006ms, 2092ms total)
+T278C 025:200 JLINK_ReadMemU32(0xE0001038, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001038)  returns 0xFFFFFFFF (0006ms, 2098ms total)
+T278C 025:206 JLINK_ReadMemU32(0xE0001048, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001048)  returns 0xFFFFFFFF (0007ms, 2105ms total)
+T278C 025:213 JLINK_ReadMemU32(0xE0001058, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001058)  returns 0xFFFFFFFF (0006ms, 2111ms total)
+T278C 025:219 JLINK_ReadReg(R0) -- CPU is running
+  ***** Error: Can not read register 0 (R0) while CPU is running  returns 0x00000000 (0017ms, 2128ms total)
+T278C 025:236 JLINK_ReadReg(R1) -- CPU is running
+  ***** Error: Can not read register 1 (R1) while CPU is running  returns 0x00000000 (0016ms, 2144ms total)
+T278C 025:252 JLINK_ReadReg(R2) -- CPU is running
+  ***** Error: Can not read register 2 (R2) while CPU is running  returns 0x00000000 (0017ms, 2161ms total)
+T278C 025:269 JLINK_ReadReg(R3) -- CPU is running
+  ***** Error: Can not read register 3 (R3) while CPU is running  returns 0x00000000 (0015ms, 2176ms total)
+T278C 025:284 JLINK_ReadReg(R4) -- CPU is running
+  ***** Error: Can not read register 4 (R4) while CPU is running  returns 0x00000000 (0017ms, 2193ms total)
+T278C 025:301 JLINK_ReadReg(R5) -- CPU is running
+  ***** Error: Can not read register 5 (R5) while CPU is running  returns 0x00000000 (0016ms, 2209ms total)
+T278C 025:317 JLINK_ReadReg(R6) -- CPU is running
+  ***** Error: Can not read register 6 (R6) while CPU is running  returns 0x00000000 (0016ms, 2225ms total)
+T278C 025:333 JLINK_ReadReg(R7) -- CPU is running
+  ***** Error: Can not read register 7 (R7) while CPU is running  returns 0x00000000 (0017ms, 2242ms total)
+T278C 025:350 JLINK_ReadReg(R8) -- CPU is running
+  ***** Error: Can not read register 8 (R8) while CPU is running  returns 0x00000000 (0016ms, 2258ms total)
+T278C 025:366 JLINK_ReadReg(R9) -- CPU is running
+  ***** Error: Can not read register 9 (R9) while CPU is running  returns 0x00000000 (0017ms, 2275ms total)
+T278C 025:383 JLINK_ReadReg(R10) -- CPU is running
+  ***** Error: Can not read register 10 (R10) while CPU is running  returns 0x00000000 (0016ms, 2291ms total)
+T278C 025:399 JLINK_ReadReg(R11) -- CPU is running
+  ***** Error: Can not read register 11 (R11) while CPU is running  returns 0x00000000 (0017ms, 2308ms total)
+T278C 025:416 JLINK_ReadReg(R12) -- CPU is running
+  ***** Error: Can not read register 12 (R12) while CPU is running  returns 0x00000000 (0016ms, 2324ms total)
+T278C 025:432 JLINK_ReadReg(R13 (SP)) -- CPU is running
+  ***** Error: Can not read register 13 (R13) while CPU is running  returns 0x00000000 (0016ms, 2340ms total)
+T278C 025:448 JLINK_ReadReg(R14) -- CPU is running
+  ***** Error: Can not read register 14 (R14) while CPU is running  returns 0x00000000 (0016ms, 2356ms total)
+T278C 025:464 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 2373ms total)
+T278C 025:481 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 2389ms total)
+T278C 025:497 JLINK_ReadReg(MSP) -- CPU is running
+  ***** Error: Can not read register 17 (MSP) while CPU is running  returns 0x00000000 (0017ms, 2406ms total)
+T278C 025:514 JLINK_ReadReg(PSP) -- CPU is running
+  ***** Error: Can not read register 18 (PSP) while CPU is running  returns 0x00000000 (0017ms, 2423ms total)
+T278C 025:531 JLINK_ReadReg(CFBP) -- CPU is running
+  ***** Error: Can not read register 20 (CFBP) while CPU is running  returns 0x00000000 (0016ms, 2439ms total)
+T5AEC 025:547 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 2445ms total)
+T5AEC 026:612 JLINK_ReadMem (0x08003894, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08003894) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 2451ms total)
+T5AEC 026:618 JLINK_ReadMem (0x08003894, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08003894) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 2457ms total)
+T5AEC 026:624 JLINK_ReadMem (0x08003894, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08003894) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 2463ms total)
+T5AEC 026:630 JLINK_ReadMem (0x08003896, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08003896) - Data: AA AA  returns 0x01 (0007ms, 2470ms total)
+T5AEC 026:637 JLINK_ReadMem (0x08003896, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08003896) - Data: AA AA  returns 0x01 (0006ms, 2476ms total)
+T5AEC 026:643 JLINK_ReadMem (0x08003896, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08003896) - Data: AA AA  returns 0x01 (0007ms, 2483ms total)
+T278C 029:608 JLINK_SetBPEx(Addr = 0x080038A8, Type = 0xFFFFFFF2) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008)  returns 0x00000005 (0007ms, 2490ms total)
+T278C 029:615 JLINK_Go()
+  ***** Error: CPU is not halted (0016ms, 2506ms total)
+T278C 029:732 JLINK_IsHalted()  returns ERROR (0016ms, 2522ms total)
+T278C 029:748 JLINK_Halt()CPU could not be halted  returns 0x01 (0010ms, 2516ms total)
+T278C 029:758 JLINK_IsHalted()  returns ERROR (0016ms, 2532ms total)
+T278C 029:774 JLINK_IsHalted()  returns ERROR (0016ms, 2532ms total)
+T278C 029:790 JLINK_IsHalted()  returns ERROR (0016ms, 2532ms total)
+T278C 029:807 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 2532ms total)
+T278C 029:823 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 2548ms total)
+T278C 029:840 JLINK_ClrBPEx(BPHandle = 0x00000005) -- CPU is running -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002008) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000200C) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002010) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002014) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000201C)  returns 0x00 (0053ms, 2601ms total)
+T278C 029:893 JLINK_ReadMemU32(0xE000ED30, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000ED30)  returns 0xFFFFFFFF (0007ms, 2608ms total)
+T278C 029:900 JLINK_ReadMemU32(0xE0001028, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001028)  returns 0xFFFFFFFF (0006ms, 2614ms total)
+T278C 029:906 JLINK_ReadMemU32(0xE0001038, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001038)  returns 0xFFFFFFFF (0006ms, 2620ms total)
+T278C 029:912 JLINK_ReadMemU32(0xE0001048, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001048)  returns 0xFFFFFFFF (0006ms, 2626ms total)
+T278C 029:918 JLINK_ReadMemU32(0xE0001058, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001058)  returns 0xFFFFFFFF (0006ms, 2632ms total)
+T278C 029:924 JLINK_ReadReg(R0) -- CPU is running
+  ***** Error: Can not read register 0 (R0) while CPU is running  returns 0x00000000 (0017ms, 2649ms total)
+T278C 029:941 JLINK_ReadReg(R1) -- CPU is running
+  ***** Error: Can not read register 1 (R1) while CPU is running  returns 0x00000000 (0016ms, 2665ms total)
+T278C 029:957 JLINK_ReadReg(R2) -- CPU is running
+  ***** Error: Can not read register 2 (R2) while CPU is running  returns 0x00000000 (0016ms, 2681ms total)
+T278C 029:973 JLINK_ReadReg(R3) -- CPU is running
+  ***** Error: Can not read register 3 (R3) while CPU is running  returns 0x00000000 (0017ms, 2698ms total)
+T278C 029:990 JLINK_ReadReg(R4) -- CPU is running
+  ***** Error: Can not read register 4 (R4) while CPU is running  returns 0x00000000 (0016ms, 2714ms total)
+T278C 030:006 JLINK_ReadReg(R5) -- CPU is running
+  ***** Error: Can not read register 5 (R5) while CPU is running  returns 0x00000000 (0017ms, 2731ms total)
+T278C 030:023 JLINK_ReadReg(R6) -- CPU is running
+  ***** Error: Can not read register 6 (R6) while CPU is running  returns 0x00000000 (0016ms, 2747ms total)
+T278C 030:039 JLINK_ReadReg(R7) -- CPU is running
+  ***** Error: Can not read register 7 (R7) while CPU is running  returns 0x00000000 (0016ms, 2763ms total)
+T278C 030:055 JLINK_ReadReg(R8) -- CPU is running
+  ***** Error: Can not read register 8 (R8) while CPU is running  returns 0x00000000 (0017ms, 2780ms total)
+T278C 030:072 JLINK_ReadReg(R9) -- CPU is running
+  ***** Error: Can not read register 9 (R9) while CPU is running  returns 0x00000000 (0017ms, 2797ms total)
+T278C 030:090 JLINK_ReadReg(R10) -- CPU is running
+  ***** Error: Can not read register 10 (R10) while CPU is running  returns 0x00000000 (0016ms, 2813ms total)
+T278C 030:106 JLINK_ReadReg(R11) -- CPU is running
+  ***** Error: Can not read register 11 (R11) while CPU is running  returns 0x00000000 (0015ms, 2828ms total)
+T278C 030:122 JLINK_ReadReg(R12) -- CPU is running
+  ***** Error: Can not read register 12 (R12) while CPU is running  returns 0x00000000 (0017ms, 2845ms total)
+T278C 030:139 JLINK_ReadReg(R13 (SP)) -- CPU is running
+  ***** Error: Can not read register 13 (R13) while CPU is running  returns 0x00000000 (0016ms, 2861ms total)
+T278C 030:155 JLINK_ReadReg(R14) -- CPU is running
+  ***** Error: Can not read register 14 (R14) while CPU is running  returns 0x00000000 (0016ms, 2877ms total)
+T278C 030:171 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 2894ms total)
+T278C 030:188 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 2910ms total)
+T278C 030:204 JLINK_ReadReg(MSP) -- CPU is running
+  ***** Error: Can not read register 17 (MSP) while CPU is running  returns 0x00000000 (0017ms, 2927ms total)
+T278C 030:221 JLINK_ReadReg(PSP) -- CPU is running
+  ***** Error: Can not read register 18 (PSP) while CPU is running  returns 0x00000000 (0016ms, 2943ms total)
+T278C 030:237 JLINK_ReadReg(CFBP) -- CPU is running
+  ***** Error: Can not read register 20 (CFBP) while CPU is running  returns 0x00000000 (0017ms, 2960ms total)
+T5AEC 030:254 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 2966ms total)
+T5AEC 030:263 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 2973ms total)
+T5AEC 030:270 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 2979ms total)
+T5AEC 030:276 JLINK_ReadMem (0x00000000, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000000) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 2985ms total)
+T5AEC 030:282 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0007ms, 2992ms total)
+T5AEC 030:289 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0006ms, 2998ms total)
+T5AEC 030:295 JLINK_ReadMem (0x00000002, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000002) - Data: AA AA  returns 0x01 (0007ms, 3005ms total)
+T5AEC 030:302 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3011ms total)
+T5AEC 030:308 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3017ms total)
+T5AEC 030:314 JLINK_ReadMem (0x00000004, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000004) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3023ms total)
+T5AEC 030:320 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0006ms, 3029ms total)
+T5AEC 030:326 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0007ms, 3036ms total)
+T5AEC 030:333 JLINK_ReadMem (0x00000006, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000006) - Data: AA AA  returns 0x01 (0005ms, 3041ms total)
+T5AEC 030:338 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3048ms total)
+T5AEC 030:345 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3055ms total)
+T5AEC 030:352 JLINK_ReadMem (0x00000008, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000008) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3061ms total)
+T5AEC 030:358 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0006ms, 3067ms total)
+T5AEC 030:364 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0006ms, 3073ms total)
+T5AEC 030:371 JLINK_ReadMem (0x0000000A, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000A) - Data: AA AA  returns 0x01 (0005ms, 3078ms total)
+T5AEC 030:376 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3085ms total)
+T5AEC 030:383 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3091ms total)
+T5AEC 030:389 JLINK_ReadMem (0x0000000C, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x0800000C) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3098ms total)
+T5AEC 030:396 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0006ms, 3104ms total)
+T5AEC 030:402 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0006ms, 3110ms total)
+T5AEC 030:408 JLINK_ReadMem (0x0000000E, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x0800000E) - Data: AA AA  returns 0x01 (0006ms, 3116ms total)
+T5AEC 030:414 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3123ms total)
+T5AEC 030:421 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0006ms, 3129ms total)
+T5AEC 030:427 JLINK_ReadMem (0x00000010, 0x003C Bytes, ...) -- CPU is running -- CPU_ReadMem(60 bytes @ 0x08000010) - Data: AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0007ms, 3136ms total)
+T5AEC 030:434 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0005ms, 3141ms total)
+T5AEC 030:439 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0007ms, 3148ms total)
+T5AEC 030:446 JLINK_ReadMem (0x00000012, 0x0002 Bytes, ...) -- CPU is running -- CPU_ReadMem(2 bytes @ 0x08000012) - Data: AA AA  returns 0x01 (0006ms, 3154ms total)
+T5AEC 031:188 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 3154ms total)
+T5AEC 031:188 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. >0xF8 JTAG>
+  ***** Error: Bad JTAG communication: Write to IR: Expected 0x1, got 0xF (TAP Command : 10) @ Off 0x5. (0204ms, 3358ms total)
+T5AEC 031:188  -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048)
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) (0921ms, 4075ms total)
+T5AEC 032:110 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 4091ms total)
+T5AEC 032:126 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0017ms, 4108ms total)
+T5AEC 032:143 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 4114ms total)
+T5AEC 032:160 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 4114ms total)
+T5AEC 032:160 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0920ms, 5034ms total)
+T5AEC 033:080 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 5050ms total)
+T5AEC 033:096 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 5066ms total)
+T5AEC 033:112 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0007ms, 5073ms total)
+T5AEC 033:131 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 5073ms total)
+T5AEC 033:131 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0922ms, 5995ms total)
+T5AEC 034:054 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 6011ms total)
+T5AEC 034:070 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0017ms, 6028ms total)
+T5AEC 034:087 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 6034ms total)
+T5AEC 034:103 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 6034ms total)
+T5AEC 034:103 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0918ms, 6952ms total)
+T5AEC 035:021 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 6968ms total)
+T5AEC 035:037 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 6984ms total)
+T5AEC 035:053 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0007ms, 6991ms total)
+T5AEC 035:070 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 6991ms total)
+T5AEC 035:070 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0917ms, 7908ms total)
+T5AEC 035:988 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 7925ms total)
+T5AEC 036:005 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 7941ms total)
+T5AEC 036:021 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 7947ms total)
+T5AEC 036:040 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 7947ms total)
+T5AEC 036:040 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0921ms, 8868ms total)
+T5AEC 036:961 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 8884ms total)
+T5AEC 036:977 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 8900ms total)
+T5AEC 036:993 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 8906ms total)
+T5AEC 037:009 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 8906ms total)
+T5AEC 037:009 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0921ms, 9827ms total)
+T5AEC 037:931 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 9844ms total)
+T5AEC 037:948 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 9860ms total)
+T5AEC 037:964 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0007ms, 9867ms total)
+T5AEC 037:982 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 9867ms total)
+T5AEC 037:982 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0919ms, 10786ms total)
+T5AEC 038:901 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 10802ms total)
+T5AEC 038:917 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 10818ms total)
+T5AEC 038:933 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 10824ms total)
+T5AEC 038:951 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 10824ms total)
+T5AEC 038:951 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0920ms, 11744ms total)
+T5AEC 039:872 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 11760ms total)
+T5AEC 039:888 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 11776ms total)
+T5AEC 039:904 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 11782ms total)
+T5AEC 039:923 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 11782ms total)
+T5AEC 039:923 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0920ms, 12702ms total)
+T5AEC 040:843 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 12718ms total)
+T5AEC 040:859 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0017ms, 12735ms total)
+T5AEC 040:876 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 12741ms total)
+T5AEC 040:892 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 12741ms total)
+T5AEC 040:892 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0918ms, 13659ms total)
+T5AEC 041:810 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 13675ms total)
+T5AEC 041:827 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0017ms, 13692ms total)
+T5AEC 041:844 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 13698ms total)
+T5AEC 041:860 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 13698ms total)
+T5AEC 041:860 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0919ms, 14617ms total)
+T5AEC 042:779 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 14634ms total)
+T5AEC 042:796 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 14650ms total)
+T5AEC 042:813 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0005ms, 14655ms total)
+T5AEC 042:828 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 14655ms total)
+T5AEC 042:828 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0924ms, 15579ms total)
+T5AEC 043:753 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0016ms, 15595ms total)
+T5AEC 043:769 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 15611ms total)
+T5AEC 043:785 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0007ms, 15618ms total)
+T5AEC 043:800 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 15618ms total)
+T5AEC 043:800 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ (0922ms, 16540ms total)
+T5AEC 044:722 JLINK_ReadReg(R15 (PC)) -- CPU is running
+  ***** Error: Can not read register 15 (R15) while CPU is running  returns 0x00000000 (0017ms, 16557ms total)
+T5AEC 044:739 JLINK_ReadReg(XPSR) -- CPU is running
+  ***** Error: Can not read register 16 (XPSR) while CPU is running  returns 0x00000000 (0016ms, 16573ms total)
+T5AEC 044:755 JLINK_ReadMemU32(0xE0001004, 0x0001 Items, ...) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE0001004)  returns 0xFFFFFFFF (0006ms, 16579ms total)
+T5AEC 044:769 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 16579ms total)
+T5AEC 044:769 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Failed to reset CPU. VECTRESET has confused core. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Core did not halt after reset, trying to disable WDT. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x400F2000) -- CPU is running -- CPU_ReadMem(4 bytes @ 0x40040000) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)CPU did not halt after reset. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CPU could not be halted -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+  ***** Error: Communication timed out: Requested 8 bytes, received 0 bytes ! -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)Could not set S_RESET_ST -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001048) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) (3152ms, 19731ms total)
+T2F88 047:921 
+  ***** Error: Connection to emulator lost! (0000ms, 19731ms total)
+T5AEC 047:921 JLINK_ReadReg(R15 (PC))  returns 0x00000000 (0000ms, 19731ms total)
+T5AEC 047:921 JLINK_ReadReg(XPSR)  returns 0x00000000 (0000ms, 19731ms total)
+T5AEC 047:972 JLINK_Close() (0000ms, 19731ms total)
+T5AEC 047:972  (0000ms, 19731ms total)
+T5AEC 047:972 Closed (0000ms, 19731ms total)
